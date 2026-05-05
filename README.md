@@ -16,6 +16,12 @@ In a bidirectional streaming method, *both* the server and the client communicat
 
 ## 5
 
+I would separate both the server's and the client's code into separate .rs files.
+
+For the server, I could put all the services in separate files in a service directory. So in this example I would have `service/payment_service.rs`, `service/transaction_service.rs`, and `service/chat_service.rs` files.
+
+As for the client, I could again put all the client code in separate files, so I would have `client/payment_client.rs`, `client/transaction_client.rs`, and `client/chat_client.rs` files.
+
 ## 6
 
 ## 7
