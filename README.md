@@ -24,6 +24,9 @@ As for the client, I could again put all the client code in separate files, so I
 
 ## 6
 
+* The server might enforce that the amount be positive.
+* The server might validate the user id first.
+
 ## 7
 
 ## 8
