@@ -11,3 +11,4 @@ tokio-stream = "0.1.18"
 
 [build-dependencies]
 tonic-build = "0.14.5"
+tonic-prost-build = "0.14.5"
